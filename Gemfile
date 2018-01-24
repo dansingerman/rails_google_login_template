@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.7.1'
+gem 'rails', '~> 5.1.4'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.15'
 # Use SCSS for stylesheets
@@ -35,8 +35,8 @@ gem 'dotenv-rails'
 
 
 # User authentication.
-gem 'devise', '3.4.1'
-gem 'omniauth-oauth2', '~> 1.3.1'
+gem 'devise'
+gem 'omniauth-oauth2'
 gem 'omniauth-google-oauth2'
 
 
