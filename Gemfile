@@ -1,8 +1,7 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.7.1'
+gem 'rails', '~> 5.1.4'
 # Use postgresql as the database for Active Record
 gem 'pg', '~> 0.15'
 # Use SCSS for stylesheets
@@ -33,16 +32,15 @@ gem 'delayed_job_active_record'
 
 gem 'dotenv-rails'
 
-
 # User authentication.
-gem 'devise', '3.4.1'
-gem 'omniauth-oauth2', '~> 1.3.1'
+gem 'devise'
+gem 'omniauth-oauth2'
 gem 'omniauth-google-oauth2'
-
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'listen'
   gem 'rubocop'
   gem 'rspec-rails', '~> 3.0'
   gem 'fabrication'
@@ -60,4 +58,3 @@ end
 group :production, :staging do
   gem 'rails_12factor'
 end
-
