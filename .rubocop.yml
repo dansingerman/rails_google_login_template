@@ -1,0 +1,45 @@
+Rails:
+  Enabled: true
+
+AllCops:
+  Exclude:
+    - config/**/*
+    - db/**/*
+    - features/step_definitions/*
+    - features/support/*
+    - lib/config.rb
+    - Rakefile
+    - bin/*
+    - spec/*_helper.rb
+
+Style/Documentation:
+  Exclude:
+    - app/controllers/**/*
+    - app/decorators/**/*
+    - app/helpers/**/*
+    - app/models/**/*
+    - app/serializers/**/*
+
+Style/ClassAndModuleChildren:
+  Exclude:
+    - app/controllers/**/*
+    - app/decorators/**/*
+
+Style/PredicateName:
+  # Predicate name prefixes that should be removed.
+  NamePrefixBlacklist: []
+
+Metrics/LineLength:
+  Max: 150
+
+Metrics/ClassLength:
+  Max: 180
+
+Metrics/MethodLength:
+  Max: 12
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Bundler/OrderedGems:
+  Enabled: false

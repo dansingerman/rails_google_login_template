@@ -1,6 +1,5 @@
 source 'https://rubygems.org'
 
-
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.1.4'
 # Use postgresql as the database for Active Record
@@ -33,12 +32,10 @@ gem 'delayed_job_active_record'
 
 gem 'dotenv-rails'
 
-
 # User authentication.
 gem 'devise'
 gem 'omniauth-oauth2'
 gem 'omniauth-google-oauth2'
-
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
@@ -60,4 +57,3 @@ end
 group :production, :staging do
   gem 'rails_12factor'
 end
-
