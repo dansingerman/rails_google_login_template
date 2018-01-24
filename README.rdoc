@@ -1,6 +1,6 @@
 == README
 
-A base Rails 4.7.1 application with devise/login with google, and other useful stuff including
+A base Rails 5.1 application with devise/login with google, and other useful stuff including
 
 * devise
 
